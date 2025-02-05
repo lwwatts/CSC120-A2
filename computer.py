@@ -30,6 +30,14 @@ class Computer:
     def get_year_made(self):
         return self.year_made
     
+    # prints the information of each computer in a readable format 
     def print_computer(self):
-        print(f"Description: {self.description}, Processor type: {self.processor_type}, Hard drive capacity: {self.hard_drive_capacity},
-              Memory: {self.memory}, Operating system: {self.operating_system}, Year made: {self.year_made}, Price: ${self.price}")
+        print(f"Description: {self.description}, processor type: {self.processor_type}, hard drive capacity: {self.hard_drive_capacity},
+              memory: {self.memory}, operating system: {self.operating_system}, year made: {self.year_made}, price: ${self.price}")
+
+#for testing purposes only
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

@@ -44,3 +44,9 @@ class ResaleShop:
             for item in self.inventory:
                 print(f'Item ID: {self.inventory.index(item)} : {item}')
 
+# for testing purposes only
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
