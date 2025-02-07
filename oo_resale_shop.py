@@ -52,7 +52,7 @@ class ResaleShop:
                 print(f'Item ID: {self.inventory.index(item)} :', end="")
                 item.print_computer()
         else:
-            print("Inventory is empty.")
+            print("No inventory to display.")
 
 # for testing purposes only
 def main():
