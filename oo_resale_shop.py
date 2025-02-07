@@ -1,17 +1,17 @@
+from computer import Computer
+
 class ResaleShop:
 
-    import computer
-
     # What attributes will it need?
-    inventory: list = []
+    inventory: list
 
     # How will you set up your constructor?
     # Remember: in python, all constructors have the same name (__init__)
     def __init__(self, starter_inventory: list = []):
-        pass # You'll remove this when you fill out your constructor
+        self.inventory = starter_inventory
 
     # What methods will you need?
-    def buy(self, new_comp: computer):
+    def buy(self, new_comp: Computer):
         self.inventory.append(new_comp)
 
     def sell(self, item_id: int):
@@ -42,7 +42,8 @@ class ResaleShop:
     def print_inventory(self):
         if len(self.inventory) != 0:
             for item in self.inventory:
-                print(f'Item ID: {self.inventory.index(item)} : {item}')
+                print(f'Item ID: {self.inventory.index(item)} :', end="")
+                item.print_computer()
 
 # for testing purposes only
 def main():

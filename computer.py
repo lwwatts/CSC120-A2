@@ -32,8 +32,7 @@ class Computer:
     
     # prints the information of each computer in a readable format 
     def print_computer(self):
-        print(f"Description: {self.description}, processor type: {self.processor_type}, hard drive capacity: {self.hard_drive_capacity},
-              memory: {self.memory}, operating system: {self.operating_system}, year made: {self.year_made}, price: ${self.price}")
+        print(f"Description: {self.description}, processor type: {self.processor_type}, hard drive capacity: {self.hard_drive_capacity}, memory: {self.memory}, operating system: {self.operating_system}, year made: {self.year_made}, price: ${self.price}")
 
 #for testing purposes only
 def main():
