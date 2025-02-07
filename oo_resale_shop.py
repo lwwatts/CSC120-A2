@@ -39,6 +39,13 @@ class ResaleShop:
         else:
             print("Item", item_id, "not found. Please select another item to refurbish.")
 
+    def update_price(self, item_id: int, new_price: int):
+        if self.inventory[item_id] is not None:
+            comp = self.inventory[item_id]
+            comp.update_price(new_price)
+        else:
+            print("Item", item_id, "not found. Cannot update price.")
+    
     def print_inventory(self):
         if len(self.inventory) != 0:
             for item in self.inventory:
