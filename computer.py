@@ -1,9 +1,9 @@
 '''
     Filename: computer.py
-    Description: contains the class Computer, which holds all the information for a Computer object and can update
-        the Computer as necessary.
-    Author: Lucy Watts
-    Date: 7 February 2025
+ Description: contains the class Computer, which holds all the information for a Computer object and can update
+              the Computer as necessary.
+      Author: Lucy Watts
+        Date: 7 February 2025
 
     I did not collaborate with anyone on this assignment.
 '''
